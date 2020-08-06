@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production webpack --config build/webpack.prod.conf.js",
-    "dev": "NODE_ENV=development webpack-dev-server --mode=production --config build/webpack.dev.conf.js"
+    "dev": "NODE_ENV=development webpack-dev-server --config build/webpack.dev.conf.js"
   },
   "repository": {
     "type": "git",
@@ -42,8 +42,10 @@
     "cross-env": "^7.0.2",
     "css-loader": "^3.5.3",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
     "happypack": "^5.0.1",
     "html-webpack-plugin": "^4.3.0",
+    "node-notifier": "^7.0.1",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
